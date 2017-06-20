@@ -1,0 +1,50 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 50px 200px 50px 200px;
+}
+
+.sadrzaj{
+	height: 1500px;
+	width: 900px;
+	outline:20px solid #228B22;
+	outline-offset: 20px;
+	font-size: 30px;
+	text-indent: 30px;	
+}
+
+.slika{	
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    border: 5px solid #228B22;
+    background-color: #98FB98;
+}
+
+.pesma h1{
+	text-transform: uppercase;
+}
+
+.pesma {
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	border:5px solid #228B22;
+	background-color: #98FB98;
+}
+
+.prolog{
+	font-size: 20px;
+	text-align: left;
+	background-color: #ffffff !important;
+	}
+/*prelaskom misem preko dela oznacenog h2 naslovom kao Prolog, sva slova postaju velika*/
+.prolog:hover{
+	text-transform: uppercase;
+}
+
+/*prelaskom preko slike kuce na drvetu i klikom na nju otvara se knjiga na sajtu knjizare*/
+
+#drvo:hover{
+	opacity: 0.7;
+}
